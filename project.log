@@ -194,3 +194,47 @@
 2026-05-20 11:14:07 | INFO | P02 | ========================
 2026-05-20 11:14:07 | INFO | P02 | Executed successfully!
 2026-05-20 11:14:07 | INFO | P02 | ========================
+2026-05-21 14:52:34 | INFO | P02 | === RUN START ===
+2026-05-21 14:52:34 | INFO | P02 | project=P02
+2026-05-21 14:52:34 | INFO | P02 | repo_dir=datafun-02-automation
+2026-05-21 14:52:34 | INFO | P02 | python=3.14.0
+2026-05-21 14:52:34 | INFO | P02 | os=Windows 11
+2026-05-21 14:52:34 | INFO | P02 | shell=powershell
+2026-05-21 14:52:34 | INFO | P02 | cwd=.
+2026-05-21 14:52:34 | INFO | P02 | github_actions=False
+2026-05-21 14:52:34 | INFO | P02 | ========================
+2026-05-21 14:52:34 | INFO | P02 | START main()
+2026-05-21 14:52:34 | INFO | P02 | ========================
+2026-05-21 14:52:34 | INFO | P02 | ========================
+2026-05-21 14:52:34 | INFO | P02 | FUNCTION 1: for loop over a numeric range
+2026-05-21 14:52:34 | INFO | P02 | ========================
+2026-05-21 14:52:34 | INFO | P02 | First third: 1
+2026-05-21 14:52:34 | INFO | P02 | Last third:  3
+2026-05-21 14:52:34 | INFO | P02 | Wrote file: alex_third_1.txt
+2026-05-21 14:52:34 | INFO | P02 | Wrote file: alex_third_2.txt
+2026-05-21 14:52:34 | INFO | P02 | Wrote file: alex_third_3.txt
+2026-05-21 14:52:34 | INFO | P02 | ========================
+2026-05-21 14:52:34 | INFO | P02 | FUNCTION 2: for loop over a list
+2026-05-21 14:52:34 | INFO | P02 | ========================
+2026-05-21 14:52:34 | INFO | P02 | Pet list: ['dog', 'cat']
+2026-05-21 14:52:34 | INFO | P02 | Wrote file: alex_dog.txt
+2026-05-21 14:52:34 | INFO | P02 | Wrote file: alex_cat.txt
+2026-05-21 14:52:34 | INFO | P02 | ========================
+2026-05-21 14:52:34 | INFO | P02 | FUNCTION 3: list comprehension
+2026-05-21 14:52:34 | INFO | P02 | ========================
+2026-05-21 14:52:34 | INFO | P02 | Original list: ['dog', 'cat']
+2026-05-21 14:52:34 | INFO | P02 | Transformed list: ['favorite_dog', 'favorite_cat']
+2026-05-21 14:52:34 | INFO | P02 | Wrote file: alex_favorite_dog.txt
+2026-05-21 14:52:34 | INFO | P02 | Wrote file: alex_favorite_cat.txt
+2026-05-21 14:52:34 | INFO | P02 | ========================
+2026-05-21 14:52:34 | INFO | P02 | FUNCTION 4: while loop with counter
+2026-05-21 14:52:34 | INFO | P02 | ========================
+2026-05-21 14:52:34 | INFO | P02 | Files to create: 2
+2026-05-21 14:52:34 | INFO | P02 | Seconds between files: 1
+2026-05-21 14:52:34 | INFO | P02 | Wrote file: alex_01.txt
+2026-05-21 14:52:34 | INFO | P02 | Waiting 1 second(s)...
+2026-05-21 14:52:35 | INFO | P02 | Wrote file: alex_02.txt
+2026-05-21 14:52:35 | INFO | P02 | Waiting 1 second(s)...
+2026-05-21 14:52:36 | INFO | P02 | ========================
+2026-05-21 14:52:36 | INFO | P02 | Executed successfully!
+2026-05-21 14:52:36 | INFO | P02 | ========================

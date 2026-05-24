@@ -2,6 +2,22 @@
 
 This site provides documentation for this project.
 Use the navigation to explore module-specific materials.
+## Custom Project
+
+### Dataset
+I used 3 cations and anions
+
+### Signals
+I created files showing cation and anion combinations and files detailing each ions charge
+
+### Experiments
+I started simple with one list then added anions, then a dictionary with the charge values
+
+### Results
+Text files were created as expected
+
+### Interpretation
+This is very straightforward automation implementation.
 
 ## How-To Guide
 

@@ -2,7 +2,6 @@
 
 import logging
 from pathlib import Path
-import time
 from typing import Final
 
 from datafun_toolkit.logger import get_logger, log_header
@@ -15,12 +14,19 @@ LOG: logging.Logger = get_logger("P02", level="INFO")
 
 ROOT_DIR: Final[Path] = Path.cwd()
 DATA_DIR: Final[Path] = ROOT_DIR / "data"
-PROCESSED_DIR: Final[Path] = DATA_DIR / "processed_phase"
+PROCESSED_DIR: Final[Path] = DATA_DIR / "processed_custom"
 
-FIRST_THIRD: Final[int] = 1
-LAST_THIRD: Final[int] = 3
 
-PET_LIST: Final[list[str]] = ["dog", "cat"]
+CATION_LIST: Final[list[str]] = ["sodium", "calcium", "potassium"]
+CHARGE_DICT: Final[dict[str, int]] = {
+    "sodium": 1,
+    "calcium": 2,
+    "potassium": 1,
+    "chloride": -1,
+    "sulfate": -2,
+    "nitrate": -1,
+}
+ANION_LIST: Final[list[str]] = ["chloride", "sulfate", "nitrate"]
 
 WAIT_SECONDS: Final[int] = 1
 FILE_COUNT: Final[int] = 2
@@ -44,116 +50,54 @@ def write_text_file(*, path: Path, content: str) -> None:
     LOG.info(f"Wrote file: {path.name}")
 
 
-# === DECLARE REPETITION FUNCTION 1: FOR LOOP OVER A NUMERIC RANGE ===
-
-
-def create_files_from_numeric_range() -> None:
-    """Create one text file per quarter using a for loop over a range.
-
-    WHY: Use range() when repeating logic a known number of times.
-    range(start, stop + 1) produces start, start+1, ..., stop (inclusive).
-
-    Arguments: None
-    Returns: None
-    """
-    LOG.info("========================")
-    LOG.info("FUNCTION 1: for loop over a numeric range")
-    LOG.info("========================")
-
-    LOG.info(f"First third: {FIRST_THIRD}")
-    LOG.info(f"Last third:  {LAST_THIRD}")
-
-    for quarter_number in range(FIRST_THIRD, LAST_THIRD + 1):
-        filename: str = f"alex_third_{quarter_number}.txt"
-        path: Path = PROCESSED_DIR / filename
-        content: str = f"Report for third number: {quarter_number}\n"
-        write_text_file(path=path, content=content)
-
-
-# === DECLARE REPETITION FUNCTION 2: FOR LOOP OVER A LIST ===
+# === DECLARE REPETITION FUNCTION 2: FOR LOOP OVER TWO LISTS ===
 
 
 def create_files_from_list() -> None:
     """Create one text file per item in a list using a for loop.
 
-    WHY: Use a for loop over a list when repeating logic for each item.
-    The loop variable takes on each value in the list, one at a time.
 
     Arguments: None
     Returns: None
     """
     LOG.info("========================")
-    LOG.info("FUNCTION 2: for loop over a list")
+    LOG.info("FUNCTION 2: for loop over two lists")
     LOG.info("========================")
 
-    LOG.info(f"Pet list: {PET_LIST}")
+    LOG.info(f"Cation list: {CATION_LIST}")
+    LOG.info(f"Anion list:  {ANION_LIST}")
+    LOG.info("Creating one file per cation, with content about anion pairs")
 
-    for pet_name in PET_LIST:
-        filename: str = f"alex_{pet_name}.txt"
+    for cation_name in CATION_LIST:
+        filename: str = f"{cation_name}.txt"
         path: Path = PROCESSED_DIR / filename
-        content: str = f"Pet data for: '{pet_name}'\n"
+        content: str = f"Selected Cation '{cation_name}' - Complementary Anions: "
+        for anion_name in ANION_LIST:
+            content += f" '{anion_name}',"
         write_text_file(path=path, content=content)
 
 
-# === DECLARE REPETITION FUNCTION 3: LIST COMPREHENSION ===
+# === DECLARE REPETITION FUNCTION 3: DICTIONARY COMPREHENSION ===
 
 
 def create_files_using_list_comprehension() -> None:
-    """Create one text file per item in a transformed list.
-
-    WHY: Use a list comprehension to transform one list into another.
-    Read it as: <expression> FOR each <item> IN <list>.
-    List comprehensions are more concise than a for loop building a new list.
-
+    """
     Arguments: None
     Returns: None
     """
     LOG.info("========================")
-    LOG.info("FUNCTION 3: list comprehension")
+    LOG.info("FUNCTION 3: Dictionary comprehension")
     LOG.info("========================")
 
-    prefix: str = "favorite_"
+    prefix: str = "Charge of "
+    ion_list: list[str] = CATION_LIST + ANION_LIST
 
-    LOG.info(f"Original list: {PET_LIST}")
-    favorite_list: list[str] = [f"{prefix}{name}" for name in PET_LIST]
-    LOG.info(f"Transformed list: {favorite_list}")
-
-    for favorite in favorite_list:
-        filename: str = f"alex_{favorite}.txt"
+    for ion in ion_list:
+        filename: str = f"{ion}_charge.txt"
         path: Path = PROCESSED_DIR / filename
-        content: str = f"Special data about: '{favorite}'\n"
+        charge = CHARGE_DICT[ion]
+        content: str = f"{prefix}: {charge}\n"
         write_text_file(path=path, content=content)
-
-
-# === DECLARE REPETITION FUNCTION 4: WHILE LOOP ===
-
-
-def create_files_periodically() -> None:
-    """Create a fixed number of files with a brief delay between each.
-
-    WHY: Use a while loop when repeating logic until a condition becomes false.
-    Always increment the counter variable to avoid an infinite loop.
-
-    Arguments: None
-    Returns: None
-    """
-    LOG.info("========================")
-    LOG.info("FUNCTION 4: while loop with counter")
-    LOG.info("========================")
-
-    LOG.info(f"Files to create: {FILE_COUNT}")
-    LOG.info(f"Seconds between files: {WAIT_SECONDS}")
-
-    i: int = 1
-
-    while i <= FILE_COUNT:
-        filename: str = f"alex_{i:02d}.txt"
-        path: Path = PROCESSED_DIR / filename
-        content: str = f"Periodic file number: {i}\n"
-        write_text_file(path=path, content=content)
-        LOG.info(f"Waiting {WAIT_SECONDS} second(s)...")
-        time.sleep(WAIT_SECONDS)
-        i += 1  # WHY: increment to avoid an infinite loop
 
 
 # === DEFINE THE MAIN FUNCTION THAT CALLS OTHER FUNCTIONS ===
@@ -171,10 +115,8 @@ def main() -> None:
     LOG.info("START main()")
     LOG.info("========================")
 
-    create_files_from_numeric_range()
     create_files_from_list()
     create_files_using_list_comprehension()
-    create_files_periodically()
 
     LOG.info("========================")
     LOG.info("Executed successfully!")

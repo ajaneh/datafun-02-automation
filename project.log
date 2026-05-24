@@ -238,3 +238,263 @@
 2026-05-21 14:52:36 | INFO | P02 | ========================
 2026-05-21 14:52:36 | INFO | P02 | Executed successfully!
 2026-05-21 14:52:36 | INFO | P02 | ========================
+2026-05-24 13:42:42 | INFO | P02 | === RUN START ===
+2026-05-24 13:42:42 | INFO | P02 | project=P02
+2026-05-24 13:42:42 | INFO | P02 | repo_dir=datafun-02-automation
+2026-05-24 13:42:42 | INFO | P02 | python=3.14.0
+2026-05-24 13:42:42 | INFO | P02 | os=Windows 11
+2026-05-24 13:42:42 | INFO | P02 | shell=powershell
+2026-05-24 13:42:42 | INFO | P02 | cwd=.
+2026-05-24 13:42:42 | INFO | P02 | github_actions=False
+2026-05-24 13:42:42 | INFO | P02 | ========================
+2026-05-24 13:42:42 | INFO | P02 | START main()
+2026-05-24 13:42:42 | INFO | P02 | ========================
+2026-05-24 13:42:42 | INFO | P02 | ========================
+2026-05-24 13:42:42 | INFO | P02 | FUNCTION 1: for loop over a numeric range
+2026-05-24 13:42:42 | INFO | P02 | ========================
+2026-05-24 13:42:42 | INFO | P02 | First third: 1
+2026-05-24 13:42:42 | INFO | P02 | Last third:  3
+2026-05-24 13:42:42 | INFO | P02 | Wrote file: alex_third_1.txt
+2026-05-24 13:42:42 | INFO | P02 | Wrote file: alex_third_2.txt
+2026-05-24 13:42:42 | INFO | P02 | Wrote file: alex_third_3.txt
+2026-05-24 13:42:42 | INFO | P02 | ========================
+2026-05-24 13:42:42 | INFO | P02 | FUNCTION 2: for loop over a list
+2026-05-24 13:42:42 | INFO | P02 | ========================
+2026-05-24 13:42:42 | INFO | P02 | Cation list: ['sodium', 'calcium', 'potassium']
+2026-05-24 13:42:42 | INFO | P02 | Anion list:  ['chloride', 'sulfate', 'nitrate']
+2026-05-24 13:42:42 | INFO | P02 | Creating one file per cation, with content about all anion pairs
+2026-05-24 13:42:42 | INFO | P02 | Wrote file: alex_sodium.txt
+2026-05-24 13:42:42 | INFO | P02 | Wrote file: alex_calcium.txt
+2026-05-24 13:42:42 | INFO | P02 | Wrote file: alex_potassium.txt
+2026-05-24 13:42:42 | INFO | P02 | ========================
+2026-05-24 13:42:42 | INFO | P02 | FUNCTION 3: list comprehension
+2026-05-24 13:42:42 | INFO | P02 | ========================
+2026-05-24 13:42:42 | INFO | P02 | Original list: ['sodium', 'calcium', 'potassium']
+2026-05-24 13:42:42 | INFO | P02 | Transformed list: ['favorite_sodium', 'favorite_calcium', 'favorite_potassium']
+2026-05-24 13:42:42 | INFO | P02 | Wrote file: alex_favorite_sodium.txt
+2026-05-24 13:42:42 | INFO | P02 | Wrote file: alex_favorite_calcium.txt
+2026-05-24 13:42:42 | INFO | P02 | Wrote file: alex_favorite_potassium.txt
+2026-05-24 13:42:42 | INFO | P02 | ========================
+2026-05-24 13:42:42 | INFO | P02 | FUNCTION 4: while loop with counter
+2026-05-24 13:42:42 | INFO | P02 | ========================
+2026-05-24 13:42:42 | INFO | P02 | Files to create: 2
+2026-05-24 13:42:42 | INFO | P02 | Seconds between files: 1
+2026-05-24 13:42:42 | INFO | P02 | Wrote file: alex_01.txt
+2026-05-24 13:42:42 | INFO | P02 | Waiting 1 second(s)...
+2026-05-24 13:42:43 | INFO | P02 | Wrote file: alex_02.txt
+2026-05-24 13:42:43 | INFO | P02 | Waiting 1 second(s)...
+2026-05-24 13:42:44 | INFO | P02 | ========================
+2026-05-24 13:42:44 | INFO | P02 | Executed successfully!
+2026-05-24 13:42:44 | INFO | P02 | ========================
+2026-05-24 13:44:52 | INFO | P02 | === RUN START ===
+2026-05-24 13:44:52 | INFO | P02 | project=P02
+2026-05-24 13:44:52 | INFO | P02 | repo_dir=datafun-02-automation
+2026-05-24 13:44:52 | INFO | P02 | python=3.14.0
+2026-05-24 13:44:52 | INFO | P02 | os=Windows 11
+2026-05-24 13:44:52 | INFO | P02 | shell=powershell
+2026-05-24 13:44:52 | INFO | P02 | cwd=.
+2026-05-24 13:44:52 | INFO | P02 | github_actions=False
+2026-05-24 13:44:52 | INFO | P02 | ========================
+2026-05-24 13:44:52 | INFO | P02 | START main()
+2026-05-24 13:44:52 | INFO | P02 | ========================
+2026-05-24 13:44:52 | INFO | P02 | ========================
+2026-05-24 13:44:52 | INFO | P02 | FUNCTION 1: for loop over a numeric range
+2026-05-24 13:44:52 | INFO | P02 | ========================
+2026-05-24 13:44:52 | INFO | P02 | First third: 1
+2026-05-24 13:44:52 | INFO | P02 | Last third:  3
+2026-05-24 13:44:52 | INFO | P02 | Wrote file: alex_third_1.txt
+2026-05-24 13:44:52 | INFO | P02 | Wrote file: alex_third_2.txt
+2026-05-24 13:44:52 | INFO | P02 | Wrote file: alex_third_3.txt
+2026-05-24 13:44:52 | INFO | P02 | ========================
+2026-05-24 13:44:52 | INFO | P02 | FUNCTION 2: for loop over a list
+2026-05-24 13:44:52 | INFO | P02 | ========================
+2026-05-24 13:44:52 | INFO | P02 | Cation list: ['sodium', 'calcium', 'potassium']
+2026-05-24 13:44:52 | INFO | P02 | Anion list:  ['chloride', 'sulfate', 'nitrate']
+2026-05-24 13:44:52 | INFO | P02 | Creating one file per cation, with content about all anion pairs
+2026-05-24 13:44:52 | INFO | P02 | Wrote file: alex_sodium.txt
+2026-05-24 13:44:52 | INFO | P02 | Wrote file: alex_calcium.txt
+2026-05-24 13:44:52 | INFO | P02 | Wrote file: alex_potassium.txt
+2026-05-24 13:44:52 | INFO | P02 | ========================
+2026-05-24 13:44:52 | INFO | P02 | FUNCTION 3: list comprehension
+2026-05-24 13:44:52 | INFO | P02 | ========================
+2026-05-24 13:44:52 | INFO | P02 | Original list: ['sodium', 'calcium', 'potassium']
+2026-05-24 13:44:52 | INFO | P02 | Transformed list: ['favorite_sodium', 'favorite_calcium', 'favorite_potassium']
+2026-05-24 13:44:52 | INFO | P02 | Wrote file: alex_favorite_sodium.txt
+2026-05-24 13:44:52 | INFO | P02 | Wrote file: alex_favorite_calcium.txt
+2026-05-24 13:44:52 | INFO | P02 | Wrote file: alex_favorite_potassium.txt
+2026-05-24 13:44:52 | INFO | P02 | ========================
+2026-05-24 13:44:52 | INFO | P02 | FUNCTION 4: while loop with counter
+2026-05-24 13:44:52 | INFO | P02 | ========================
+2026-05-24 13:44:52 | INFO | P02 | Files to create: 2
+2026-05-24 13:44:52 | INFO | P02 | Seconds between files: 1
+2026-05-24 13:44:52 | INFO | P02 | Wrote file: alex_01.txt
+2026-05-24 13:44:52 | INFO | P02 | Waiting 1 second(s)...
+2026-05-24 13:44:53 | INFO | P02 | Wrote file: alex_02.txt
+2026-05-24 13:44:53 | INFO | P02 | Waiting 1 second(s)...
+2026-05-24 13:44:54 | INFO | P02 | ========================
+2026-05-24 13:44:54 | INFO | P02 | Executed successfully!
+2026-05-24 13:44:54 | INFO | P02 | ========================
+2026-05-24 13:52:14 | INFO | P02 | === RUN START ===
+2026-05-24 13:52:14 | INFO | P02 | project=P02
+2026-05-24 13:52:14 | INFO | P02 | repo_dir=datafun-02-automation
+2026-05-24 13:52:14 | INFO | P02 | python=3.14.0
+2026-05-24 13:52:14 | INFO | P02 | os=Windows 11
+2026-05-24 13:52:14 | INFO | P02 | shell=powershell
+2026-05-24 13:52:14 | INFO | P02 | cwd=.
+2026-05-24 13:52:14 | INFO | P02 | github_actions=False
+2026-05-24 13:52:14 | INFO | P02 | ========================
+2026-05-24 13:52:14 | INFO | P02 | START main()
+2026-05-24 13:52:14 | INFO | P02 | ========================
+2026-05-24 13:52:38 | INFO | P02 | === RUN START ===
+2026-05-24 13:52:38 | INFO | P02 | project=P02
+2026-05-24 13:52:38 | INFO | P02 | repo_dir=datafun-02-automation
+2026-05-24 13:52:38 | INFO | P02 | python=3.14.0
+2026-05-24 13:52:38 | INFO | P02 | os=Windows 11
+2026-05-24 13:52:38 | INFO | P02 | shell=powershell
+2026-05-24 13:52:38 | INFO | P02 | cwd=.
+2026-05-24 13:52:38 | INFO | P02 | github_actions=False
+2026-05-24 13:52:38 | INFO | P02 | ========================
+2026-05-24 13:52:38 | INFO | P02 | START main()
+2026-05-24 13:52:38 | INFO | P02 | ========================
+2026-05-24 13:52:38 | INFO | P02 | ========================
+2026-05-24 13:52:38 | INFO | P02 | FUNCTION 2: for loop over a list
+2026-05-24 13:52:38 | INFO | P02 | ========================
+2026-05-24 13:52:38 | INFO | P02 | Cation list: ['sodium', 'calcium', 'potassium']
+2026-05-24 13:52:38 | INFO | P02 | Anion list:  ['chloride', 'sulfate', 'nitrate']
+2026-05-24 13:52:38 | INFO | P02 | Creating one file per cation, with content about all anion pairs
+2026-05-24 13:52:38 | INFO | P02 | Wrote file: alex_sodium.txt
+2026-05-24 13:52:38 | INFO | P02 | Wrote file: alex_calcium.txt
+2026-05-24 13:52:38 | INFO | P02 | Wrote file: alex_potassium.txt
+2026-05-24 13:52:38 | INFO | P02 | ========================
+2026-05-24 13:52:38 | INFO | P02 | FUNCTION 3: Dictionary comprehension
+2026-05-24 13:52:38 | INFO | P02 | ========================
+2026-05-24 13:52:38 | INFO | P02 | Charge list: [1, 2, 1]
+2026-05-24 13:52:38 | INFO | P02 | Wrote file: 1_charge.txt
+2026-05-24 13:52:38 | INFO | P02 | Wrote file: 2_charge.txt
+2026-05-24 13:52:38 | INFO | P02 | Wrote file: 1_charge.txt
+2026-05-24 13:52:38 | INFO | P02 | ========================
+2026-05-24 13:52:38 | INFO | P02 | FUNCTION 4: while loop with counter
+2026-05-24 13:52:38 | INFO | P02 | ========================
+2026-05-24 13:52:38 | INFO | P02 | Files to create: 2
+2026-05-24 13:52:38 | INFO | P02 | Seconds between files: 1
+2026-05-24 13:52:38 | INFO | P02 | Wrote file: alex_01.txt
+2026-05-24 13:52:38 | INFO | P02 | Waiting 1 second(s)...
+2026-05-24 13:52:39 | INFO | P02 | Wrote file: alex_02.txt
+2026-05-24 13:52:39 | INFO | P02 | Waiting 1 second(s)...
+2026-05-24 13:52:40 | INFO | P02 | ========================
+2026-05-24 13:52:40 | INFO | P02 | Executed successfully!
+2026-05-24 13:52:40 | INFO | P02 | ========================
+2026-05-24 13:55:22 | INFO | P02 | === RUN START ===
+2026-05-24 13:55:22 | INFO | P02 | project=P02
+2026-05-24 13:55:22 | INFO | P02 | repo_dir=datafun-02-automation
+2026-05-24 13:55:22 | INFO | P02 | python=3.14.0
+2026-05-24 13:55:22 | INFO | P02 | os=Windows 11
+2026-05-24 13:55:22 | INFO | P02 | shell=powershell
+2026-05-24 13:55:22 | INFO | P02 | cwd=.
+2026-05-24 13:55:22 | INFO | P02 | github_actions=False
+2026-05-24 13:55:22 | INFO | P02 | ========================
+2026-05-24 13:55:22 | INFO | P02 | START main()
+2026-05-24 13:55:22 | INFO | P02 | ========================
+2026-05-24 13:55:22 | INFO | P02 | ========================
+2026-05-24 13:55:22 | INFO | P02 | FUNCTION 2: for loop over a list
+2026-05-24 13:55:22 | INFO | P02 | ========================
+2026-05-24 13:55:22 | INFO | P02 | Cation list: ['sodium', 'calcium', 'potassium']
+2026-05-24 13:55:22 | INFO | P02 | Anion list:  ['chloride', 'sulfate', 'nitrate']
+2026-05-24 13:55:22 | INFO | P02 | Creating one file per cation, with content about all anion pairs
+2026-05-24 13:55:22 | INFO | P02 | Wrote file: alex_sodium.txt
+2026-05-24 13:55:22 | INFO | P02 | Wrote file: alex_calcium.txt
+2026-05-24 13:55:22 | INFO | P02 | Wrote file: alex_potassium.txt
+2026-05-24 13:55:22 | INFO | P02 | ========================
+2026-05-24 13:55:22 | INFO | P02 | FUNCTION 3: Dictionary comprehension
+2026-05-24 13:55:22 | INFO | P02 | ========================
+2026-05-24 13:55:22 | INFO | P02 | Wrote file: sodium_charge.txt
+2026-05-24 13:55:22 | INFO | P02 | Wrote file: calcium_charge.txt
+2026-05-24 13:55:22 | INFO | P02 | Wrote file: potassium_charge.txt
+2026-05-24 13:55:22 | INFO | P02 | Wrote file: chloride_charge.txt
+2026-05-24 13:55:22 | INFO | P02 | Wrote file: sulfate_charge.txt
+2026-05-24 13:55:22 | INFO | P02 | Wrote file: nitrate_charge.txt
+2026-05-24 13:55:22 | INFO | P02 | ========================
+2026-05-24 13:55:22 | INFO | P02 | FUNCTION 4: while loop with counter
+2026-05-24 13:55:22 | INFO | P02 | ========================
+2026-05-24 13:55:22 | INFO | P02 | Files to create: 2
+2026-05-24 13:55:22 | INFO | P02 | Seconds between files: 1
+2026-05-24 13:55:22 | INFO | P02 | Wrote file: alex_01.txt
+2026-05-24 13:55:22 | INFO | P02 | Waiting 1 second(s)...
+2026-05-24 13:55:23 | INFO | P02 | Wrote file: alex_02.txt
+2026-05-24 13:55:23 | INFO | P02 | Waiting 1 second(s)...
+2026-05-24 13:55:24 | INFO | P02 | ========================
+2026-05-24 13:55:24 | INFO | P02 | Executed successfully!
+2026-05-24 13:55:24 | INFO | P02 | ========================
+2026-05-24 13:58:47 | INFO | P02 | === RUN START ===
+2026-05-24 13:58:47 | INFO | P02 | project=P02
+2026-05-24 13:58:47 | INFO | P02 | repo_dir=datafun-02-automation
+2026-05-24 13:58:47 | INFO | P02 | python=3.14.0
+2026-05-24 13:58:48 | INFO | P02 | os=Windows 11
+2026-05-24 13:58:48 | INFO | P02 | shell=powershell
+2026-05-24 13:58:48 | INFO | P02 | cwd=.
+2026-05-24 13:58:48 | INFO | P02 | github_actions=False
+2026-05-24 13:58:48 | INFO | P02 | ========================
+2026-05-24 13:58:48 | INFO | P02 | START main()
+2026-05-24 13:58:48 | INFO | P02 | ========================
+2026-05-24 13:58:48 | INFO | P02 | ========================
+2026-05-24 13:58:48 | INFO | P02 | FUNCTION 2: for loop over two lists
+2026-05-24 13:58:48 | INFO | P02 | ========================
+2026-05-24 13:58:48 | INFO | P02 | Cation list: ['sodium', 'calcium', 'potassium']
+2026-05-24 13:58:48 | INFO | P02 | Anion list:  ['chloride', 'sulfate', 'nitrate']
+2026-05-24 13:58:48 | INFO | P02 | Creating one file per cation, with content about anion pairs
+2026-05-24 13:58:48 | INFO | P02 | Wrote file: sodium.txt
+2026-05-24 13:58:48 | INFO | P02 | Wrote file: calcium.txt
+2026-05-24 13:58:48 | INFO | P02 | Wrote file: potassium.txt
+2026-05-24 13:58:48 | INFO | P02 | ========================
+2026-05-24 13:58:48 | INFO | P02 | FUNCTION 3: Dictionary comprehension
+2026-05-24 13:58:48 | INFO | P02 | ========================
+2026-05-24 13:58:48 | INFO | P02 | Wrote file: sodium_charge.txt
+2026-05-24 13:58:48 | INFO | P02 | Wrote file: calcium_charge.txt
+2026-05-24 13:58:48 | INFO | P02 | Wrote file: potassium_charge.txt
+2026-05-24 13:58:48 | INFO | P02 | Wrote file: chloride_charge.txt
+2026-05-24 13:58:48 | INFO | P02 | Wrote file: sulfate_charge.txt
+2026-05-24 13:58:48 | INFO | P02 | Wrote file: nitrate_charge.txt
+2026-05-24 13:58:48 | INFO | P02 | ========================
+2026-05-24 13:58:48 | INFO | P02 | FUNCTION 4: while loop with counter
+2026-05-24 13:58:48 | INFO | P02 | ========================
+2026-05-24 13:58:48 | INFO | P02 | Files to create: 2
+2026-05-24 13:58:48 | INFO | P02 | Seconds between files: 1
+2026-05-24 13:58:48 | INFO | P02 | Wrote file: alex_01.txt
+2026-05-24 13:58:48 | INFO | P02 | Waiting 1 second(s)...
+2026-05-24 13:58:49 | INFO | P02 | Wrote file: alex_02.txt
+2026-05-24 13:58:49 | INFO | P02 | Waiting 1 second(s)...
+2026-05-24 13:58:50 | INFO | P02 | ========================
+2026-05-24 13:58:50 | INFO | P02 | Executed successfully!
+2026-05-24 13:58:50 | INFO | P02 | ========================
+2026-05-24 14:02:26 | INFO | P02 | === RUN START ===
+2026-05-24 14:02:26 | INFO | P02 | project=P02
+2026-05-24 14:02:26 | INFO | P02 | repo_dir=datafun-02-automation
+2026-05-24 14:02:26 | INFO | P02 | python=3.14.0
+2026-05-24 14:02:27 | INFO | P02 | os=Windows 11
+2026-05-24 14:02:27 | INFO | P02 | shell=powershell
+2026-05-24 14:02:27 | INFO | P02 | cwd=.
+2026-05-24 14:02:27 | INFO | P02 | github_actions=False
+2026-05-24 14:02:27 | INFO | P02 | ========================
+2026-05-24 14:02:27 | INFO | P02 | START main()
+2026-05-24 14:02:27 | INFO | P02 | ========================
+2026-05-24 14:02:27 | INFO | P02 | ========================
+2026-05-24 14:02:27 | INFO | P02 | FUNCTION 2: for loop over two lists
+2026-05-24 14:02:27 | INFO | P02 | ========================
+2026-05-24 14:02:27 | INFO | P02 | Cation list: ['sodium', 'calcium', 'potassium']
+2026-05-24 14:02:27 | INFO | P02 | Anion list:  ['chloride', 'sulfate', 'nitrate']
+2026-05-24 14:02:27 | INFO | P02 | Creating one file per cation, with content about anion pairs
+2026-05-24 14:02:27 | INFO | P02 | Wrote file: sodium.txt
+2026-05-24 14:02:27 | INFO | P02 | Wrote file: calcium.txt
+2026-05-24 14:02:27 | INFO | P02 | Wrote file: potassium.txt
+2026-05-24 14:02:27 | INFO | P02 | ========================
+2026-05-24 14:02:27 | INFO | P02 | FUNCTION 3: Dictionary comprehension
+2026-05-24 14:02:27 | INFO | P02 | ========================
+2026-05-24 14:02:27 | INFO | P02 | Wrote file: sodium_charge.txt
+2026-05-24 14:02:27 | INFO | P02 | Wrote file: calcium_charge.txt
+2026-05-24 14:02:27 | INFO | P02 | Wrote file: potassium_charge.txt
+2026-05-24 14:02:27 | INFO | P02 | Wrote file: chloride_charge.txt
+2026-05-24 14:02:27 | INFO | P02 | Wrote file: sulfate_charge.txt
+2026-05-24 14:02:27 | INFO | P02 | Wrote file: nitrate_charge.txt
+2026-05-24 14:02:27 | INFO | P02 | ========================
+2026-05-24 14:02:27 | INFO | P02 | Executed successfully!
+2026-05-24 14:02:27 | INFO | P02 | ========================
